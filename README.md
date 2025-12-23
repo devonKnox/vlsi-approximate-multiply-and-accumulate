@@ -87,7 +87,7 @@ Here, we derive the truncation error in the approximate MAC by comparing the exa
   - Wallace Tree: 0.38 ns
   - 24-bit CLA: 0.28 ns
 - Total critical path: **0.67 ns**
-- Waveforms for example input vectors A and B, clocked at 1 GHz (full precision). Accumulated output shown in G, followed by power:
+- Waveforms for example input vectors A and B, clocked at 1 GHz (full precision). Accumulated output shown in Q, followed by clock signal and power:
 ![Final Chip Layout](waveform.png)
 
 ---
@@ -97,4 +97,5 @@ Here, we derive the truncation error in the approximate MAC by comparing the exa
 - I'd consider this the most rewarding project I've been able to work on while at Duke. Finally being able to do something with no abstractions, only transistors and metal (and lots of vias) was extremely rewarding. That being said, passing design rule checks and layout versus schematic was... tedious to say the least!
 - We used TSMC’s 65 nm standard-cell library in Cadence Virtuoso for all design and verification.
 - Feel free to reach out at devon.knox@duke.edu for any questions!
+
 
